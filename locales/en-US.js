@@ -1,0 +1,298 @@
+export default {
+    app: {
+        mycart: "My Basket",
+        myauction: "My Auctions",
+        welcome: "Welcome",
+        myprofile: "My Profile",
+        myorder: "My Order",
+        logout: "Log Out",
+        "endingnow": "Ending Now",
+        searchmore: "Search More",
+        setlang: "Language",
+        category: "Categories",
+        account: "Official Account",
+        deliverytip: "Delivery charge 49 baht in Thailand",
+        tryagain: "You bid successfully, but another competitor bids higher price than you, please try again.",
+        about: {
+            title: "About Us",
+            user: "User Agreements ",
+            policy: "Privacy Policy",
+            company: "About Company",
+            recruting: "Recruitment"
+        },
+        help: {
+            title: "Help & Contact",
+            contactus: "Contact Us",
+            payment: "Payment",
+            signup: "Sign Up",
+            introduction: "Auction Introduction",
+            delivery: "Delivery",
+            tip: "We have  return policy for all products within 14 days.All products should be returned in the same condition as received,you will receive the full amounts you paid  except  10% service fee, and you should  pay the delivery fee yourself also."
+        },
+        "category2": {
+            "her": "For Woman", 
+            "him": "For Man", 
+            "house": " Housing and Garden", 
+            "kids": "Kids & Toys ", 
+            "electric": "Electronic Equipment", 
+            "travel": "Sports & Travel", 
+            "beauty": "Beauty & Health", 
+            "car": "Car & Motor", 
+            "tool": "Tools"
+        }
+    
+        
+
+    },
+    index: {
+        title: "HOME",
+        name: "hello,world"
+    },
+    myorder: {
+        "mycart": "My Basket",
+        waitingpayment: "Your Basket- waiting for payment",
+        basketempty: "Your basket is currently empty",
+        previousorders: "Previous Orders",
+        order: {
+            orderno: "Order NO.",
+            date: "Date",
+            status: "Status",
+            trackingno: "Tracking NO.",
+            "pending": "Payment Pending",
+            "process": "Awaiting Shipment",
+            "ship": "Shipped",
+            "success": "Order Completed",
+            "expire": "Expired",
+            "cancell": "Cancelled",
+            "askreturn": "Return Requesting",
+            "returning": "Returning",
+            "retrurnend": "Returning Finished",
+        },
+        invoice: {
+            invoice: "Invoice",
+            invoiceno: "Invoice NO.",
+            amount: "Amount",
+            checkinvoice: "Check Invoice"
+
+        }
+    },
+    login: {
+        tip: "There is no minimum price  for  online auction,it's free,you should  pay only  when you win .",
+        tip2: "You will receive an email within login information",
+        tologin: "log In",
+        tosignup: "sign Up",
+        emailid: "Email/ID",
+        password: "Password",
+        login: "Log In ",
+        forgetpw: "Forget password?",
+        id: "ID",
+        email: "Email",
+        creat: "Creat",
+        selectcountry: "Select Country",
+        continue: "Continue",
+        backtologin: "Back to login",
+        trueemail: "Please enter a valid email address",
+        nouser: "User name can’t be empty",
+        falseuser: "User name must be 6 or more characters",
+        nocountry: "Please select country",
+        "sendsuccess": "send successfully,please check in youe mailbox",
+        "changepassword": "Change password successfully,you are jumping to ......",
+        "nospace": "No space before username",
+
+
+    },
+    myinfo: {
+        success: "Success",
+        information: "Individual Information",
+        changecountry: "Change Country",
+        subscribenews: "Subscribe news",
+        edit: "Edit",
+        likepage: "Like page",
+        save: "Save",
+        cancel: "Cancel",
+        tip: "Please finish auctions before changing country.",
+        currentcountry: "Current Country",
+        addressdetail: {
+            username: "User Name",
+            name: "Name",
+            surname: "Surname",
+            address: "Address",
+            country: "Country",
+            "district": "District",
+            "subdistrict": "Sub-district",
+            province: "Province",
+            postalcode: "Postal Code",
+            mobilephone: "Mobile Phone",
+            language: "Language",
+
+            "entername": "Please enter receiver's name",
+            "entersurname": "Please enter receiver's surname",
+            "enteraddress": "Please enter address",
+            "enterprovince": "Please select province",
+            "enterpostcode": "Please enter pstal code",
+            "entertel": "Please enter mobile number"
+        }
+    },
+    productdetail: {
+        endingtime: "Ending Time",
+        currentbid: "Current Bid",
+        winner: "Current Winner",
+        bid: "Bid",
+        add: "add",
+        payment: "Payment",
+        back: "back",
+        servicefee: "service fee",
+        productspolicy: "Return Policy",
+        delivery: "Delivery",
+        tip:"We have  return policy for all products within 14 days.All products should be returned in the same condition as received,you will receive the full amounts you paid  except  10% service fee, and you should  pay the delivery fee yourself also.",
+        accountname: "Account Name",
+        value: "Value",
+        quantity: "Quantity",
+        auctiontime: "Auction Time",
+        productdetails: "Product Details",
+        faq: "FAQ",
+        hidehistory: "Hide Auction History",
+        "size": "Select",
+        "bidding": "Bidding",
+        "ended": "This auction is ended,you will jump to another auction",
+        "display": "Display auction history",
+
+    },
+    myauctins: {
+        ing: {
+            myauctions: "My Auctions",
+            currentbid: "Current Valid Bid",
+            auctionswon: "Auctions Won",
+            auctinsfailed: "Auctins Failed",
+            status: "Status",
+            product: "Product",
+            currrentbid: "Currrent Bid",
+            nextbid: "Next Bid",
+            bidtimes: "Bid Times",
+            auctioning: "You currently don't have any valid bid",
+        },
+        win: {
+            myauctions: "My Auctions",
+            currentbid: "Current Valid Bid",
+            auctionswon: "Auctions Won",
+            auctinsfailed: "Auctins Failed",
+            status: "Status",
+            yourwon: "Your Winning Items",
+            winningbid: "Winning Bid",
+            completed: "Completed",
+            orderstatus: "Order Status",
+            wonauction: "You don't have any won auction",
+        },
+        failed: {
+            myauctions: "My Auctions",
+            currentbid: "Current valid bid",
+            auctionswon: "Auctions Won",
+            auctinsfailed: "Auctins Failed",
+            status: "Status",
+            product: "Failed Product",
+            hammerprice: "Hammer Price",
+            yourbid: "Your Bid",
+            moreauction: "More Auctions",
+            failedauction: "You don't have any failed auction"
+        },
+    },
+    paymentone: {
+        payment: "Payment",
+        detail: "Detail",
+        paymentmethod1: "Payment Method",
+        orderstatus: "Order Status",
+        methodselection: "Method Selection",
+        cashondelivery: "Cash on Delivery",
+        bankatm1: "Bank/ATM",
+        visamastercard: "Visa/Master Card",
+        bankselection: "Please select bank",
+        krungsribank: "Krungsri Bank",
+        siamcommercial: "Siam Commercial Bank",
+        krungthaibank: "Krungthai Bank",
+        kasikornbank: "KASIKORN Bank",
+        bkkbank: "BANGKOK Bank",
+        tmb: "TMB",
+        deliverytext: "Delivering to door  is our  standard  service,prepaid orders will be shipped  within 24 hours after we receiving payment.Click next to  confirm order",
+        nextstep1: "Next ",
+        needhelp: "Need help?",
+        callus: "If you have any questions,please feel free to contact us.",
+        orderinformation: "Order Information",
+        total: "Total",
+        delivery: "Delivery",
+        subtotal: "Subtotal",
+        discount:"Discount",
+        address: "Select Address",
+        addaddress: "Add Address",
+        deliveryrequirment: "Delivery Requirments",
+        nextstep2: "Next Step",
+        youhaveselected: "You have selected payment method",
+        bankatm2: "Bank/ATM Transfer",
+        paymentmethod2: "Payment Method",
+        paymentdescreption: "Please trasfer 11.08 CNY to following account and we will arrange the shipment",
+        attention: "For your convenience,after you transfer the amount, please send your payment slip and order number to our facebook inbox or email ",
+        print: "Print Invoice",
+        productno: "Order",
+        paymenttip: "After payment processed,Please send your payment slip to our facebook、line、email.If you have more than one order,please combine the order amounts", 
+    
+        paymentinfo:"Payment Detail",
+        otherinfo:"Other Information",
+
+
+
+    },
+
+    winn: {
+        win: "Congratulation! You have won the auction.",
+        secend: "You are the winner for the item which will move to your basket in few secends.",
+        moreauction: "More Auction",
+        mycart: "My Basket",
+    },
+
+    pic: {
+        mycart: "My Basket",
+        total: "Total",
+        checkout: "Checkout"
+    },
+    allcart: {
+        mycart: "My Basket",
+        waitingpayment: "Your basket- waiting for payment",
+        items: "Items",
+        amount: "Amount",
+        subtotal: "Subtotal(including service fee)",
+        delivery: "Delivery",
+        total: "Total",
+        checkout: "Checkout",
+        deliverycharge: "Delivery charge 4.99 in Thailand",
+        whenaccept: "When can I accept my products?",
+        answer1: "You can accept your products within 15 to 20 working days",
+        return: "What is the return policy?",
+        answer2: "Ifyou are unsatified with products,you can return them ",
+        changeorder: "Change order?",
+        call: "Please call us",
+    },
+
+    attentionone: {
+        attention: "Attention!",
+        cancelitem: "Please be reminded you are deleting your winningitems,  are you sure to delete it?",
+        confirm: "Delete",
+        cancel: "Cancel",
+    },
+
+    setpassword: {
+        setpassword: "Set New Password",
+        passworddetail: "The password should include 8-20 letters、numbers and special characters（two types are required）",
+        new: "Please input new password",
+        change: "Change",
+    },
+
+    attention: {
+        Attention: "Attention",
+        passworderror: " The passwords should be in accordance",
+        ok: "OK",
+    },
+}
+
+
+
+
+
